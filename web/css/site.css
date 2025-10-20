@@ -1,0 +1,221 @@
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.container-pic {
+  background-image: url('https://images.newindianexpress.com/uploads/user/imagelibrary/2020/6/30/w1200X800/floods.jpg');
+  width: 504px;
+  height: 366px;
+  padding: 10px;
+  background-size: cover;
+  transform: scale(0.8);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#panel1a-content {
+  background: #fff;
+}
+
+.question {
+  color: #fff;
+}
+
+.answer {
+  background: #fff;
+  color: rgb(0, 115, 230);
+}
+
+.container-info {
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.carousel {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  object-fit: fill;
+}
+
+img {
+  min-height: 100% !important;
+}
+
+p {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(14, 126, 237);
+  padding: 50px 50px 10px 50px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.footer .row:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+.footer .sec-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footer-info {
+  text-align: center !important;
+  padding: 10px;
+}
+
+.footer .row .footer-info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #eee;
+}
+
+.footer .row .footer-info p {
+  letter-spacing: 0.5px;
+  color: #eee;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  flex-wrap: wrap;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo1, .logo2, .logo3 {
+  color: #fff;
+  border-radius: 15%;
+  background: rgb(14, 126, 237);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo4 {
+  color: #fff;
+  border-radius: 50%;
+  background: rgb(14, 126, 237);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 25px;
+}
+
+.navbar {
+  background-color: rgb(14, 126, 237) !important;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: rgb(14, 126, 237);
+  border-color: rgb(14, 126, 237);
+}
+
+.btn-primary:hover {
+  background-color: rgb(12, 110, 210);
+  border-color: rgb(12, 110, 210);
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .row {
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .footer .row:nth-of-type(2) {
+    margin-top: 20px;
+  }
+
+  .footer-info {
+    text-align: left;
+    padding: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer .row .footer-info h3 {
+    font-size: 32px;
+  }
+
+  .footer .row .footer-info p {
+    font-size: 24px;
+  }
+
+  .footer .sec-row {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+}
